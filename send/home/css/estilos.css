@@ -1,0 +1,48 @@
+
+
+button{
+    color: black;
+}
+
+label{
+    color: darkblue;
+}
+
+#divFormularioLogin{
+    /*background-color: whitesmoke;
+    position: relative;
+    border-style: inset;
+    border-radius: 5%;*/
+    width: 50%;
+    border-color: cadetblue;
+    margin-top: 15px; 
+    margin-bottom: 25px;
+    padding-top: 0px; 
+    
+}
+
+#labelImg{   
+    width: 500px;
+    height: 300px;
+}
+
+#divDadosLogin{
+    margin-left: 150px;
+    margin-right: 400px;
+    width: 50%;
+    height: 50%;
+    overflow-x: hidden !important;
+}
+
+#emailLog, #senhaLog{
+    width: 700px;
+}
+
+#btEnviar{
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+
+
+

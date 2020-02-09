@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Cantina-Online Maven Webapp
+Implementation-Version: 1.0
+Built-By: luz
+Implementation-Vendor-Id: br.com.ifpb
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_211
+Main-Class: ${start-class}
+

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cantina-online:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc2966bd-cd65-45f0-8a03-6f6d0cb7b505" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="182" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cantinaonline" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ObI2lvtUPFl1MAQ3QfNTE7dKE7" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>XmlDuplicatedId</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564163104508" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IamGa\Documents\Backup\Daniel\2019.1\PW1\RepositorioPW\Projeto\cantinaonline\src\main\webapp\html" />
+      <recent name="C:\Users\IamGa\Documents\Backup\Daniel\2019.1\PW1\RepositorioPW\ProjetoPW1\2\Cantina-On-Line\cantinaonline\src\main\webapp\html" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ifpb.cantinaonline.control" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IamGa\Documents\Backup\Daniel\2019.1\PW1\RepositorioPW\Projeto\cantinaonline\src\main\webapp\html\JSP" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/html" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Cantina">
+    <configuration name="home.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/cantina_online/html/home.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Cantina" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/cantina_online/html/home.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cantina-online:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cantina_online" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_cantinaonline" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39607" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cantina-online:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.home.jsp" />
+      <item itemvalue="Tomcat Server.Cantina" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc2966bd-cd65-45f0-8a03-6f6d0cb7b505" name="Default Changelist" comment="" />
+      <created>1559133465388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559133465388</updated>
+      <workItem from="1559133468027" duration="292000" />
+      <workItem from="1559258989745" duration="5478000" />
+      <workItem from="1559271171388" duration="4548000" />
+      <workItem from="1559290622412" duration="2036000" />
+      <workItem from="1559294880502" duration="7707000" />
+      <workItem from="1559303933165" duration="7378000" />
+      <workItem from="1559323067629" duration="9054000" />
+      <workItem from="1559342076116" duration="20422000" />
+      <workItem from="1559408403371" duration="4132000" />
+      <workItem from="1559675059670" duration="4561000" />
+      <workItem from="1559734253485" duration="6572000" />
+      <workItem from="1559742186648" duration="4626000" />
+      <workItem from="1559752367423" duration="6403000" />
+      <workItem from="1560016782182" duration="2138000" />
+      <workItem from="1560103948595" duration="601000" />
+      <workItem from="1560170173068" duration="599000" />
+      <workItem from="1560206499367" duration="1857000" />
+      <workItem from="1560252366383" duration="1237000" />
+      <workItem from="1560533773963" duration="7206000" />
+      <workItem from="1560615329035" duration="597000" />
+      <workItem from="1560699577668" duration="4415000" />
+      <workItem from="1560772697920" duration="4153000" />
+      <workItem from="1561462601268" duration="9200000" />
+      <workItem from="1561551738995" duration="737000" />
+      <workItem from="1561552876820" duration="10734000" />
+      <workItem from="1561644230090" duration="1252000" />
+      <workItem from="1561683917583" duration="1033000" />
+      <workItem from="1561724952516" duration="1117000" />
+      <workItem from="1561941640195" duration="1311000" />
+      <workItem from="1561985989021" duration="24875000" />
+      <workItem from="1562070972801" duration="37214000" />
+      <workItem from="1562154401936" duration="21501000" />
+      <workItem from="1562241714909" duration="28318000" />
+      <workItem from="1562332124910" duration="8676000" />
+      <workItem from="1562623474623" duration="7276000" />
+      <workItem from="1562672740860" duration="5449000" />
+      <workItem from="1562709386391" duration="9921000" />
+      <workItem from="1562759227574" duration="601000" />
+      <workItem from="1562798828192" duration="657000" />
+      <workItem from="1562805744736" duration="1810000" />
+      <workItem from="1562845381289" duration="6487000" />
+      <workItem from="1562882422703" duration="9061000" />
+      <workItem from="1562947570151" duration="3271000" />
+      <workItem from="1563284190032" duration="5721000" />
+      <workItem from="1563325263103" duration="398000" />
+      <workItem from="1563883145451" duration="753000" />
+      <workItem from="1563916356300" duration="615000" />
+      <workItem from="1563921448459" duration="82000" />
+      <workItem from="1563921555038" duration="6837000" />
+      <workItem from="1563968477865" duration="10016000" />
+      <workItem from="1563988024622" duration="4156000" />
+      <workItem from="1564012982660" duration="1155000" />
+      <workItem from="1564159815222" duration="40000" />
+      <workItem from="1564159923608" duration="203000" />
+      <workItem from="1564161402076" duration="1361000" />
+      <workItem from="1564239678461" duration="1385000" />
+      <workItem from="1564487151652" duration="36000" />
+      <workItem from="1564520378485" duration="981000" />
+      <workItem from="1564521576465" duration="90000" />
+      <workItem from="1564590003787" duration="93000" />
+      <workItem from="1564702986915" duration="2753000" />
+      <workItem from="1564708566333" duration="3421000" />
+      <workItem from="1564763519037" duration="1962000" />
+      <workItem from="1565108607009" duration="499000" />
+      <workItem from="1565307749701" duration="1451000" />
+      <workItem from="1565350497374" duration="65000" />
+      <workItem from="1565353805578" duration="1540000" />
+      <workItem from="1565367917153" duration="126000" />
+      <workItem from="1565371332823" duration="2090000" />
+      <workItem from="1565549931172" duration="633000" />
+      <workItem from="1565646248157" duration="1776000" />
+      <workItem from="1565911709271" duration="1265000" />
+      <workItem from="1566067524782" duration="2897000" />
+      <workItem from="1566144536832" duration="860000" />
+      <workItem from="1566303361362" duration="161000" />
+      <workItem from="1566305404568" duration="664000" />
+      <workItem from="1566317597502" duration="622000" />
+      <workItem from="1566481973725" duration="1366000" />
+      <workItem from="1566490821235" duration="3148000" />
+      <workItem from="1566559266231" duration="890000" />
+      <workItem from="1566578539905" duration="210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cantinaonline$Cantina.ic" NAME="Cantina Coverage Results" MODIFIED="1563926357866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cantinaonline$Cantina_Online.ic" NAME="Cantina Online Coverage Results" MODIFIED="1559302674301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

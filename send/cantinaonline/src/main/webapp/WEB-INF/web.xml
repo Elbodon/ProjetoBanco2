@@ -1,0 +1,16 @@
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+
+  <filter>
+    <filter-name>FiltroAcessos</filter-name>
+    <filter-class>br.com.ifpb.cantinaonline.control.FiltroAcesso</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FiltroAcessos</filter-name>
+    <url-pattern>/usuario.jsp</url-pattern>
+  </filter-mapping>
+
+</web-app>

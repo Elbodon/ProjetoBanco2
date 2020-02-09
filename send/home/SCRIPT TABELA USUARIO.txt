@@ -1,0 +1,19 @@
+CREATE TABLE usuario(
+    nomeCompleto VARCHAR(200) NOT NULL,
+    nomeUsuario VARCHAR(200) NOT NULL PRIMARY KEY,
+    dataNascimento date NOT NULL,
+    email VARCHAR(200) NOT NULL,
+    cidade VARCHAR(200) NOT NULL,
+    bairro VARCHAR(200) NOT NULL,
+    rua VARCHAR(200) NOT NULL,
+    senha VARCHAR(200) NOT NULL,
+    telefone VARCHAR(200) NOT NULL,
+    funcao VARCHAR(200) NOT NULL
+)
+create table produto(
+ id varchar (200)  PRIMARY KEY,
+ nome varchar(200)  NOT NULL,
+ preco real  NOT NULL,
+ quantidade integer  NOT NULL
+ )
+

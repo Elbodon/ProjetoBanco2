@@ -1,0 +1,13 @@
+CREATE TABLE usuario(
+    nomeCompleto varchar(200) NOT NULL,
+    nomeUsuario VARCHAR(200) PRIMARY KEY NOT NULL,
+    idade INTEGER NOT NULL,
+    email VARCHAR(200) NOT NULL,
+    senha VARCHAR(200) NOT NULL,
+    telefone VARCHAR(200) NOT NULL,
+    funcao VARCHAR(200) NOT NULL,
+    cidade VARCHAR(200) NOT NULL,
+    bairro VARCHAR(200) NOT NULL,
+    rua VARCHAR(200) NOT NULL,
+    numero INTEGER NOT NULL
+)

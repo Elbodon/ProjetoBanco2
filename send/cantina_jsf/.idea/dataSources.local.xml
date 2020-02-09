@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - postgres@localhost" uuid="58dcbe62-477b-44bc-ba37-1b63a5f67e34">
+      <database-info product="PostgreSQL" version="10.10 (Ubuntu 10.10-0ubuntu0.18.04.1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="10.10" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database">
+              <name qname="@" />
+              <name qname="CantinaJsf" />
+              <name qname="ExercicoRedis" />
+              <node kind="schema">
+                <name qname="@" />
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_temp_1" />
+                <name qname="pg_toast" />
+                <name qname="pg_toast_temp_1" />
+              </node>
+            </node>
+            <node kind="database">
+              <name qname="IBGE" />
+              <name qname="IQueFome" />
+              <node kind="schema">
+                <name qname="@" />
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_temp_1" />
+                <name qname="pg_toast" />
+                <name qname="pg_toast_temp_1" />
+                <name qname="topology" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

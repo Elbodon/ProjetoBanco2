@@ -1,0 +1,73 @@
+
+
+button{
+    color: black;
+}
+
+label{
+    color: darkblue;
+}
+/*#emailLog{*/
+    /*width: 200px;*/
+    /*margin-left: 500px;*/
+/*}*/
+/*#senhaLog{*/
+    /*width: 200px;*/
+    /*margin-left: 500px;*/
+
+/*}*/
+
+#divSelect{
+    width: 300px;
+}
+
+
+#bodyProdutos{
+    background-image: url("../imagens/PlanodeFundo.png");
+}
+#divTelaLogin{
+    width: 500px;
+    height: 500px;
+
+}
+
+.labelImg{
+    width: 500px;
+    height: 300px;
+}
+
+#divDadosLogin {
+    position: fixed;
+}
+
+#divEmail{
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 300px;
+
+
+}
+
+#divSenha{
+    width: 250px;
+    margin-right: 300px;
+}
+
+
+/*#senhaLog{*/
+    /*width: 200px;*/
+    /*!*margin-left: 100px;*!*/
+    /*margin-right: 500px;*/
+
+/*}*/
+
+#btLogar{
+    margin-left: 80px;
+    margin-right: 500px;
+
+}
+
+#modal2{
+    height: 570px;
+}
+

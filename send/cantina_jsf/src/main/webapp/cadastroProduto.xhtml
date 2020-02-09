@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>IQueFome</title>
+
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <!--        <link rel="stylesheet" type="text/css" href="../resources/css/materialize.min.css"/>-->
+        <h:outputStylesheet name="css/materialize.min.css"></h:outputStylesheet>
+
+
+        <!--        <script src="js/materialize.min.js"></script>-->
+
+    </h:head>
+    <h:form rendered="#{cadastroBean.etapaCadastro == 'DADOS_PESSOAIS'}" id="formCadastroEtapa1">
+        <div class="col s12 purple lighten-3">
+            <center><p:graphicImage name="imagem/logo.jpg" style="width: 60px;height:60px;" /></center>
+        </div>
+        <div class="row container">
+
+
+        <h:panelGrid columns="3">
+
+            <h:outputLabel value="ID: " />
+            <h:inputText id="id" required="true" requiredMessage="ID é obrigatório" value="#{cadastroProdutoBean.produto.id}" />
+            <h:message for="id" />
+
+            <h:outputLabel value="Nome: " />
+            <h:inputText id="nome" required="true" requiredMessage="Nome é obrigatório" value="#{cadastroProdutoBean.produto.nome}" />
+            <h:message for="nome" />
+
+            <h:outputLabel value="Preço: " />
+            <h:inputText id="preco" required="true" requiredMessage="ID é obrigatório" value="#{cadastroProdutoBean.produto.preco}" />
+            <h:message for="preco" />
+
+            <h:outputLabel value="Quantidade: " />
+            <h:inputText id="quantidade" required="true" requiredMessage="Quantidade" value="#{cadastroProdutoBean.produto.quantidade}" />
+            <h:message for="quantidade" />
+
+            <h:commandButton styleClass=" background: #9575cd;" action="#{cadastroProdutoBean.salvarProduto}" value="Concluir cadastro" />
+
+
+        </h:panelGrid>
+        </div>
+        <div class="footer-copyright" style="width: 100%; position: absolute; bottom: 0px; ">
+            <label  id="CopyRight" >CNPJ: 12.216.621/0001-96 | 12216621000196 St Srtv/sul Quadra 701 Conjunto L Bloco 02, 30, Sala 417 Parte B 10 | Brasilia - DF, CEP: 70340-906.</label>
+        </div>
+
+     </h:form>
+
+
+
+</f:view>
+</html>
