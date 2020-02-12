@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>Cadastro de Usuario</title>
+
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <!--        <link rel="stylesheet" type="text/css" href="../resources/css/materialize.min.css"/>-->
+        <h:outputStylesheet name="css/materialize.min.css"></h:outputStylesheet>
+
+
+        <!--        <script src="js/materialize.min.js"></script>-->
+
+    </h:head>
+
+    <h:body id="cadastro">
+    <h:form prependId="false" rendered="#{cadastroBean.etapaCadastro == 'DADOS_PESSOAIS'}" id="formCadastroEtapa1">
+        <div class="col s12 purple lighten-3">
+            <center><p:graphicImage name="imagem/logo.jpg" style="width: 60px;height:60px;" /></center>
+        </div>
+        <div id="divFormulario1" class="
+        row container">
+        <h:panelGrid columns="3">
+
+
+            <h:outputLabel value="Nome Completo: " />
+            <h:inputText name="nomeCompleto" id="nome" required="true" requiredMessage="Nome é obrigatório" value="#{cadastroBean.usuario.nomeCompleto}" />
+            <h:message for="nome" />
+
+            <h:outputLabel value="Nome Usuário: " />
+            <h:inputText name="nomeUsuario" id="nomeUsuario" required="true" requiredMessage="Nume de usuario é obrigatória" value="#{cadastroBean.usuario.nomeUsuario}">
+            </h:inputText>
+            <h:message for="nomeUsuario" />
+
+            <h:outputLabel value="Idade: " />
+            <h:inputText name="idade" id="idade" required="true" requiredMessage="Idade é obrigatória" value="#{cadastroBean.usuario.idade}">
+                <f:validateLongRange minimum="1" maximum="90" />
+            </h:inputText>
+            <h:message for="idade" />
+
+
+            <h:outputLabel value="E-mail: " />
+            <h:inputText name="email" id="email" required="true" validator="emailValidator" requiredMessage="E-mail é obrigatório" value="#{cadastroBean.usuario.email}" />
+            <h:message for="email" />
+
+            <h:outputLabel value="Senha: " />
+            <h:inputSecret id="senha" required="true" requiredMessage="Senha obrigatória" value="#{cadastroBean.usuario.senha}" />
+            <h:message for="senha" />
+
+<!--            <h:outputLabel value="Senha Validada: " />-->
+<!--            <p:password name="senha" id="password" requiredMessage="Senha Obrigatória" class="password" size="40" maxlength="20"-->
+<!--                        value="#{cadastroBean.usuario.senha}" required="true"-->
+<!--                        validatorMessage="Senha válida somente no padrão ipe@1234.">-->
+<!--                <f:validateRegex pattern="((\\d)*([a-z])*([A-Z])*([@#$%])*){6,20})"/> </p:password>-->
+
+            <h:outputLabel value="Telefone: " />
+            <h:inputText name="telefone" id="telefone" required="true" requiredMessage="TELEFONE É OBRIGATORIO" value="#{cadastroBean.usuario.telefone}" />
+            <h:message for="telefone" />
+
+<!--            <h:selectOneRadio value = "#{cadastroBean.usuario.funcao}">-->
+<!--                <f:selectItem itemValue = "Funcionario" itemLabel = "funcionario" />-->
+<!--                <f:selectItem itemValue = "Clinte" itemLabel = "Cliente" />-->
+<!--            </h:selectOneRadio>-->
+
+            <p:outputLabel for="console" value="Função:" />
+            <p:selectOneRadio id="console" value="#{cadastroBean.usuario.funcao}" unselectable="true">
+                <f:selectItem itemLabel="Funcionario" itemValue="Funcionario" />
+                <f:selectItem itemLabel="Cliente" itemValue="Cliente" />
+            </p:selectOneRadio>
+
+
+
+            <h:commandButton name="btnCadastro" type="submit" id="btnCadastro" styleClass=" background: #9575cd;" value="Próximo &gt;"
+                             action="#{cadastroBean.salvarDadosPessoais}" />
+
+        </h:panelGrid>
+
+        </div>
+
+            <div class="footer-copyright" style="width: 100%; position: fixed; bottom: 0px; ">
+                <label id="CopyRight" >Cajazeiras-PB 2019 | Todos os direitos reservados</label>
+            </div>
+
+
+     </h:form>
+
+
+    <h:form prependId="false" rendered="#{cadastroBean.etapaCadastro == 'ENDERECO'}" id="formCadastroEtapa2">
+        <div class="col s12 purple lighten-3">
+            <center><p:graphicImage name="imagem/logo.jpg" style="width: 60px;height:60px;" /></center>
+        </div>
+        <div id="divFormulario2" class="row container">
+        <h:panelGrid columns="3">
+            <h:outputLabel value="Rua: " />
+            <h:inputText name="rua" id="rua" required="true" requiredMessage="Obrigatória"
+                         value="#{cadastroBean.usuario.endereco.rua}" />
+            <h:message for="rua" />
+
+            <h:outputLabel value="Número: " />
+            <h:inputText name="numero" id="numero" required="true" requiredMessage="Obrigatória"
+                         value="#{cadastroBean.usuario.endereco.numero}" />
+            <h:message for="numero" />
+
+            <h:outputLabel value="Bairro: " />
+            <h:inputText name="bairro" id="bairro" required="true" requiredMessage="Obrigatória"
+                         value="#{cadastroBean.usuario.endereco.bairro}" />
+            <h:message for="bairro" />
+
+            <h:outputLabel value="Cidade: " />
+            <h:inputText name="cidade" id="cidade" required="true" requiredMessage="Obrigatória"
+                         value="#{cadastroBean.usuario.endereco.cidade}" />
+            <h:message for="cidade" />
+
+            <h:commandButton style="width: 10%; background: #9575cd;" action="#{cadastroBean.voltar}" value="&lt; Anterior" />
+            <h:commandButton name="btnConcluir" id="btnConcluir" style="width: 30px; background: #9575cd;"
+                             action="#{cadastroBean.salvarEndereco}" value="Concluir cadastro" />
+
+        </h:panelGrid>
+        </div>
+        <div class="footer-copyright" style="width: 100%; position: absolute; bottom: 0px; ">
+            <label > Cajazeiras-PB 2019 | Todos os direitos reservados</label>
+        </div>
+
+    </h:form>
+    </h:body>
+
+</f:view>
+</html>

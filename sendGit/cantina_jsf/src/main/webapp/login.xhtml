@@ -1,0 +1,38 @@
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="WEB-INF/template/modelo.xhtml">
+    <ui:define name="content">
+        <h:head>
+            <title>Login</title>
+        </h:head>
+
+        <f:view>
+            <div id="divFormularioLogin" class="row container">
+            <h:form>
+                <h1>Faça seu Login</h1>
+
+                <h:messages globalOnly="true" />
+
+                <h:panelGrid columns="3">
+
+                    <h:outputLabel value="Login :" />
+                    <h:inputText required="true" requiredMessage="Login obrigatório" id="login" value="#{loginBean.nomeUsuario}" />
+                    <h:message for="login" />
+
+                    <h:outputLabel value="Senha:" />
+                    <h:inputSecret required="true" requiredMessage="Senha obrigatória" id="senha" value="#{loginBean.senha}" />
+                    <h:message for="senha" />
+
+                    <center> <h:commandButton style="width: 10%; background: #9575cd;"  id="loginButton" value="Login" action="#{loginBean.efetuarLogin}" /></center>
+
+                </h:panelGrid>
+
+            </h:form>
+            </div>
+
+        </f:view>
+
+    </ui:define>
+</ui:composition>
