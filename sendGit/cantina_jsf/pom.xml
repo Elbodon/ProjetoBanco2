@@ -20,12 +20,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
     <!-- https://mvnrepository.com/artifact/jstl/jstl -->
     <dependency>
       <groupId>jstl</groupId>
@@ -43,10 +37,19 @@
       <version>8.5.35</version>
       <scope>provided</scope>
     </dependency>
+    
+    <!-- Redis Libraries -->
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
       <version>9.4.1212</version>
+    </dependency>
+    
+    <!-- Redis Libraries -->
+    <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+        <version>2.9.0</version>
     </dependency>
 
     <!-- JSF Libraries -->
@@ -71,7 +74,7 @@
       <version>4.12</version>
       <scope>compile</scope>
     </dependency>
-
+    
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-chrome-driver</artifactId>
@@ -117,16 +120,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>8</source>
-          <target>8</target>
-        </configuration>
-      </plugin>
-    </plugins>
   </build>
 </project>
 
