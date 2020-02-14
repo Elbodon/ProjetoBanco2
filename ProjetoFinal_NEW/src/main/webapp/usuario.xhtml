@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <f:loadBundle basename="i18n.messages" var="msg"/>
+
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>IQueFome</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel="stylesheet" type="text/css" href="../materialize/css/materialize.css/materialize.min.css"/>
+        <script src="js/materialize.min.js" type=""></script>
+
+    </h:head>
+    <h:body>
+
+
+
+
+        <p:layout style="min-width:400px;min-height:800px;">
+            <p:layoutUnit position="west" resizable="true" size="100" minSize="40" maxSize="200">
+                West
+            </p:layoutUnit>
+
+            <p:layoutUnit position="center">
+
+                <div class="col s12 purple lighten-3">
+                    <h:form>
+                    <p:graphicImage name="imagem/logo.jpg" style="width: 55px;height:50px;" />
+
+
+                    <p:commandButton style="width: 80px;height:50px;background: #ffffff;color: black;border-radius: 10px;text-align: right;margin-left: 35%" value="Buscar" />
+                    <p:inputText style="width: 30%;background: #ffffff;color: black;border-radius: 10px;margin-right: 60px"  icon="pi pi-search" placeholder="Buscar" />
+
+                    <h:commandButton styleClass="btn waves-effect waves-purple " style="width: 10%; color: black;background: #9575cd;border-radius: 10px;" action="#{loginBean.fazerLogout}" value="logout" />
+                    </h:form>
+                </div>
+
+                <h:form>
+                    <h2>Selecione o idioma</h2>
+                    <p:selectOneRadio value="#{idiomaBean.idiomaSelecionado}">
+                        <p:ajax update="@all" event="change" listener="#{idiomaBean.alterarIdioma}" />
+                        <f:selectItems value="#{idiomaBean.idiomasDisponiveis}"></f:selectItems>
+                    </p:selectOneRadio>
+                </h:form>
+
+                    <h:outputFormat value="#{msg['usuario.bemvindo']}">
+                        <f:param value="#{usuarioBean.nomeUsuario}" />
+                    </h:outputFormat>
+
+
+
+
+
+
+
+            </p:layoutUnit>
+        </p:layout>
+    </h:body>
+
+
+</f:view>
+</html>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjetoFinal:war" />
+      <artifact name="ProjetoFinal:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afe6e67a-65da-4604-a26d-746390bc9b42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetoFinal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/controller/CarrinhoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/CarrinhoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/CarrinhoDAOBD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/conexaobanco/RedisFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/conexaobanco/RedisFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/dao/CarrinhoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/dao/CarrinhoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/dao/CarrinhoDAOBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/dao/CarrinhoDAOBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/headPrincipal.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/headPrincipal.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cadastro.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cadastro.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cadastroProduto.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cadastroProduto.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/materialize/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/template.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/artifacts/CantinaOnline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/cantina_jsf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/cantina_jsf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/pg_toast.33HYYw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/dataSources/58dcbe62-477b-44bc-ba37-1b63a5f67e34/storage_v2/_src_/database/CantinaJsf.hfqicQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/listener/AuthListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/Acesso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/Acesso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/AcessoProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/AcessoProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/CarrinhoDeCompras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/impl/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/conexaoBanco/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/conexaobanco/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/conexaoBanco/RedisFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/CarrinhoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/CarrinhoDAOBD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/ProdutoDAOBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/ProdutoDAOBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/dao/UsuarioDAOBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao/UsuarioDAOBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/model/visao/ImagesView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/BuscaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/BuscaBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/CadastroBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/CadastroBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/CadastroProdutoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/CadastroProdutoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/IdiomaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/IdiomaBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/LoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/LoginBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/ProdutoBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/ProdutoBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/mbeans/UsuarioBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans/UsuarioBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/cantinaonline/view/validators/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/validators/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/testes/Validacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/testes/ValidacaoPadrao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/testes/exception/CampoNuloException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/br/com/ifpb/testes/exception/UsuarioException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/test/integração/CadastroUsuarioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/test/sistema/CadastroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/test/sistema/ChromeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/java/test/unitario/CadastroUsuarioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/resources/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/resources/i18n/messages_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/listener/AuthListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/Acesso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/AcessoProduto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/conexaoBanco/ConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/dao/ProdutoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/dao/ProdutoDAOBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/dao/UsuarioDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/dao/UsuarioDAOBD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/model/visao/ImagesView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/BuscaBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/CadastroBean$EtapaCadastro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/CadastroBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/CadastroProdutoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/IdiomaBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/ProdutoBean$ProdutoState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/ProdutoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/UsuarioBean$UsuarioState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/mbeans/UsuarioBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/cantinaonline/view/validators/EmailValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/testes/Validacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/testes/ValidacaoPadrao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/testes/exception/CampoNuloException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/br/com/ifpb/testes/exception/UsuarioException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/i18n/messages_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/i18n/messages_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/WEB-INF/classes/test/CadastroUsuarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/busca.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/footer.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/footer.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/head.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/head.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/headPrincipal.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/layout.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/layout.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/template/modelo.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/modelo.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/buscaProduto.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/buscaProduto.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/cadastro.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/cadastroProduto.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/listagemProdutos.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listagemProdutos.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/materialize/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/materialize/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/materialize/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/js/materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/materialize/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/js/materialize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/css/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/css/materialize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/materialize/css/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/imagem/lanches/lanche2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/imagem/lanches/lanche3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/imagem/lanches/lanche4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/imagem/lanches/lanche5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/resources/imagem/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/sucesso.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/sucesso.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/template.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/cantina_jsf/src/main/webapp/usuario.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/usuario.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/projetobd2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/projetobd2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/projetobd2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/projetobd2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sendGit/projetobd2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xo3eoMDyAlbcNUrLSOnqRp7IxV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sendGit/cantina_jsf" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.ifpb.model.conexaobanco" />
+      <recent name="br.edu.ifpb.view.validators" />
+      <recent name="br.edu.ifpb.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/css" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/ifpb/model/dao" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/ifpb/view/mbeans" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/system/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ProjetoFinal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/system" />
+          </settings>
+        </artifact>
+        <artifact name="ProjetoFinal:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/system_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ProjetoFinal" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40365" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ProjetoFinal:war exploded" />
+          <artifact name="ProjetoFinal:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afe6e67a-65da-4604-a26d-746390bc9b42" name="Default Changelist" comment="" />
+      <created>1581698717423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581698717423</updated>
+      <workItem from="1581698720200" duration="2515000" />
+      <workItem from="1581704550976" duration="1229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="24" width="800" height="672" key="#Inspections" timestamp="1581699701068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="672" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1581699701068" />
+    <state x="278" y="24" width="800" height="672" key="#Project_Structure" timestamp="1581698871046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="672" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581698871046" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581700663782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581700663782" />
+    <state x="576" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581705535659">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="576" y="235" key="#com.intellij.fileTypes.FileTypeChooser/64.0.1472.864@64.0.1472.864" timestamp="1581705535659" />
+    <state x="581" y="187" key="FileChooserDialogImpl" timestamp="1581705337400">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="581" y="187" key="FileChooserDialogImpl/64.0.1472.864@64.0.1472.864" timestamp="1581705337400" />
+    <state width="906" height="230" key="GridCell.Tab.0.bottom" timestamp="1581701232681">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581701232681" />
+    <state width="906" height="230" key="GridCell.Tab.0.center" timestamp="1581701232678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581701232677" />
+    <state width="906" height="230" key="GridCell.Tab.0.left" timestamp="1581701232676">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581701232676" />
+    <state width="906" height="230" key="GridCell.Tab.0.right" timestamp="1581701232679">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581701232679" />
+    <state width="906" height="230" key="GridCell.Tab.1.bottom" timestamp="1581701232684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581701232684" />
+    <state width="906" height="230" key="GridCell.Tab.1.center" timestamp="1581701232682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581701232682" />
+    <state width="906" height="230" key="GridCell.Tab.1.left" timestamp="1581701232682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581701232682" />
+    <state width="906" height="230" key="GridCell.Tab.1.right" timestamp="1581701232683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581701232683" />
+    <state width="906" height="230" key="GridCell.Tab.2.bottom" timestamp="1581701232687">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581701232687" />
+    <state width="906" height="230" key="GridCell.Tab.2.center" timestamp="1581701232685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581701232685" />
+    <state width="906" height="230" key="GridCell.Tab.2.left" timestamp="1581701232685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581701232685" />
+    <state width="906" height="230" key="GridCell.Tab.2.right" timestamp="1581701232686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="906" height="230" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581701232686" />
+    <state x="216" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog" timestamp="1581699059878">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="216" y="21" width="924" height="679" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581699059878" />
+    <state x="609" y="170" key="MultipleFileMergeDialog" timestamp="1581704930529">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="609" y="170" key="MultipleFileMergeDialog/64.0.1472.864@64.0.1472.864" timestamp="1581704930528" />
+    <state x="393" y="165" key="Vcs.Push.Dialog.v2" timestamp="1581705057899">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="393" y="165" key="Vcs.Push.Dialog.v2/64.0.1472.864@64.0.1472.864" timestamp="1581705057899" />
+    <state x="481" y="145" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581704895694">
+      <screen x="64" y="0" width="1472" height="864" />
+    </state>
+    <state x="481" y="145" key="git4idea.branch.GitSmartOperationDialog/64.0.1472.864@64.0.1472.864" timestamp="1581704895694" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581700486257">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581700486257" />
+  </component>
+</project>
