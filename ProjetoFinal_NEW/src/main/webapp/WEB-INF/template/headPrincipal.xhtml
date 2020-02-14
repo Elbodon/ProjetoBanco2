@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>IQueFome</title>
+
+
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <link rel="stylesheet" type="text/css" href="../materialize/css/materialize.css/materialize.min.css"/>
+        <script type="" src="../materialize/js/materialize.js"></script>
+
+    </h:head>
+    <style type="text/css">
+        .white-button.ui-button.ui-state-default {
+            background-color: #ffffff;
+            color: #222222;
+            border-color: #d6d6d6;
+            /* with the exported variables from Nova and Luna Themes*/
+            border-color: var(--input-border-color, #d6d6d6);
+        }
+
+        .white-button.ui-button.ui-state-default:enabled:hover,
+        .white-button.ui-button.ui-state-default:focus {
+            background-color: #f2f2f2;
+            border-color: #ccc;
+            color: #373a3c;
+            /* with the exported variables from Nova and Luna Themes*/
+            border-color: var(--input-hover-border-color, #ccc);
+        }
+
+        .green-button.ui-button.ui-state-default {
+            background-color: #5cb85c;
+            border-color: #5cb85c;
+            color: #fff;
+        }
+
+        .green-button.ui-button.ui-state-default:enabled:hover,
+        .green-button.ui-button.ui-state-default:focus {
+            background-color: #4cae4c;
+            border-color: #5cb85c;
+        }
+
+        .red-button.ui-button.ui-state-default {
+            background-color: #d9534f;
+            border-color: #d9534f;
+            color: #fff;
+        }
+
+        .red-button.ui-button.ui-state-default:enabled:hover,
+        .red-button.ui-button.ui-state-default:focus {
+            background-color: #d43f3a;
+            border-color: #d9534f;
+        }
+
+    </style>
+
+
+    <body>
+
+    <div class="col s12 purple lighten-3">
+        <div class="row">
+            <div>
+                <div class="col s2 center">
+                    <p:graphicImage name="imagem/logo.jpg" style="width: 85px;height:80px; margin-left: 20px;" />
+                </div>
+                <div class="input-field col s5 black-text text-darken-3">
+                    <h:form styleClass="row">
+                        <i class="material-icons prefix">search</i>
+                        <p:inputText styleClass="col s7"  required="true"  value="#{buscaBean.busca}" style="background: #ffffff; padding-right: 1.5%; padding-left: 1.5%; margin-left: 5%; font-family: 'Ubuntu Light';" placeholder="Buscar"/>
+                        <p:commandButton  update="@all"  action="#{buscaBean.buscaProdutos}" styleClass="btn waves-effect transparent col s3" style=" width: auto; align-content: center; margin-left: 2%; margin-top: 1%; color: black; background: #9575cd;border-radius: 10px;" value="Buscar" />
+                    </h:form>
+                </div>
+                <div class="col s3" style="margin-top: 10px;">
+                    <h:form>
+                        <p:commandButton action="login.xhtml" styleClass="btn waves-effect transparent" style="margin: 10px; color: black; background: #9575cd; border-radius: 10px; width: auto" value="Login"/>
+                        <p:commandButton action="cadastro.xhtml" styleClass="btn waves-effect transparent" style="margin: 10px; color: black; background: #9575cd; border-radius: 10px; width: auto" value="Cadastrar"/>
+                    </h:form>
+                </div>
+
+                <div class="col s2">
+                    <h:form>
+                    <p:commandButton value="Cart" type="button" onclick="PF('dlg2').show();" styleClass="btn waves-effect transparent" style="margin: 10%; color: black; background: #9575cd; border-radius: 10px; width: auto" />
+                    <p:dialog header="Cart" widgetVar="dlg2" modal="true" height="400" width="600">
+
+                        <div class="purple lighten-3" style="color: #000000; height: 10%;">
+                            <center >This your cart:</center>
+<!--                            Aqui vem os produtos -->
+                        </div>
+
+                        <div align="right">
+                            <p:commandButton onclick="PF('dlg2').hide();" action="#" value="Cancelar" styleClass="btn waves-effect purple lighten-3" style="margin: 1%; color: black;background: #9575cd;border-radius: 10px; width: auto"/>
+                            <p:commandButton onclick="PF('dlg2').hide();" value="Comprar" styleClass="btn waves-effect purple lighten-3" style="margin: 1%; color: black;background: #9575cd;border-radius: 10px; width: auto"/>
+                        </div>
+
+                    </p:dialog>
+                    </h:form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+   </f:view>
+</html>
