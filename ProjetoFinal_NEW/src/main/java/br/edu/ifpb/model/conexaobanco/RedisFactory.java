@@ -8,11 +8,11 @@ public class RedisFactory {
     private static final String redisHost = "localhost";
     private static final Integer redisPort = 6379;
 
-    private static JedisPool pool = null;
+    private static Jedis jedis = null;
 
-    public Jedis RedisFactory() {
-        pool = new JedisPool(redisHost, redisPort);
-        return pool.getResource();
+    public Jedis conexao() {
+        jedis = new Jedis(redisHost, redisPort);
+        return jedis;
     }
 
 }
