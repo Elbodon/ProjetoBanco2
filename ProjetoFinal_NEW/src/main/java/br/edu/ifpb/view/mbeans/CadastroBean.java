@@ -48,7 +48,7 @@ public class CadastroBean {
             e.printStackTrace();
         }
 
-        return "sucesso.xhtml";
+        return "usuario.xhtml";
     }
 
     public void voltar() {

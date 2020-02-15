@@ -2,6 +2,7 @@ package br.edu.ifpb.view.mbeans;
 
 
 import br.edu.ifpb.model.dao.ProdutoDAOBD;
+import br.edu.ifpb.model.dao.ProdutoDAOMongo;
 import br.edu.ifpb.model.impl.Produto;
 
 import javax.annotation.PostConstruct;
@@ -18,12 +19,14 @@ import java.util.stream.Collectors;
 @ManagedBean
 @ViewScoped
 public class ProdutoBean implements Serializable{
+
     public enum ProdutoState { LIST, CREATE, UPDATE, REMOVE }
     private ProdutoState currentState;
 
     private Produto produto;
     private List<Produto> produtos = new ArrayList<>();
     ProdutoDAOBD produtoDAOBD = new ProdutoDAOBD();
+    ProdutoDAOMongo produtoDAOMongo = new ProdutoDAOMongo();
     private List<SelectItem> produtosDisponiveis;
 
     @PostConstruct

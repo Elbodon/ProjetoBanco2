@@ -47,14 +47,6 @@
                     </h:form>
                 </div>
 
-                <h:form>
-                    <h2>Selecione o idioma</h2>
-                    <p:selectOneRadio value="#{idiomaBean.idiomaSelecionado}">
-                        <p:ajax update="@all" event="change" listener="#{idiomaBean.alterarIdioma}" />
-                        <f:selectItems value="#{idiomaBean.idiomasDisponiveis}"></f:selectItems>
-                    </p:selectOneRadio>
-                </h:form>
-
                     <h:outputFormat value="#{msg['usuario.bemvindo']}">
                         <f:param value="#{usuarioBean.nomeUsuario}" />
                     </h:outputFormat>
