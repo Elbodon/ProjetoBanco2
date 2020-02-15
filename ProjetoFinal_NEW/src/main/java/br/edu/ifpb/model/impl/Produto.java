@@ -1,5 +1,8 @@
 package br.edu.ifpb.model.impl;
 
+import org.bson.Document;
+import java.time.ZoneId;
+
 public class Produto {
     String id;
     String nome;
@@ -48,4 +51,22 @@ public class Produto {
     public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
+
+
+    public Document toDocument(){
+        return new Document("id", id)
+                .append("nome", nome)
+                .append("preco", preco)
+                .append("quantidade", quantidade);
+    }
+
+    public Produto fromDocument(Document document){
+        id = document.getString("cpf");
+        nome = document.getString("nome");
+        preco = document.getDouble("preco");
+        quantidade = document.getInteger("quantidade");
+
+        return this;
+    }
+
 }

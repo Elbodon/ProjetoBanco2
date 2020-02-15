@@ -73,6 +73,12 @@
       <version>7.0</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongo-java-driver</artifactId>
+      <version>3.11.2</version>
+    </dependency>
+
   </dependencies>
 
   <build>

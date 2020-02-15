@@ -12,9 +12,8 @@ public class ConnectionFactory {
 
     public ConnectionFactory(){
         usuario ="postgres";
-       senha = "daniel";
-
-        url = "jdbc:postgresql://localhost:5432/CantinaJsf";
+        senha = "1234";
+        url = "jdbc:postgresql://localhost:5432/projetobd2";
     }
 
     public Connection getConnection() throws ClassNotFoundException, SQLException {

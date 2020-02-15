@@ -4,6 +4,7 @@ package br.edu.ifpb.view.mbeans;
 
 
 import br.edu.ifpb.model.dao.ProdutoDAOBD;
+import br.edu.ifpb.model.dao.ProdutoDAOMongo;
 import br.edu.ifpb.model.impl.Produto;
 
 import javax.faces.bean.ManagedBean;
@@ -15,6 +16,7 @@ import java.sql.SQLException;
 public class CadastroProdutoBean {
 
     ProdutoDAOBD produtoDAOBD= new ProdutoDAOBD();
+    ProdutoDAOMongo produtoDAOMongo = new ProdutoDAOMongo();
 
     private Produto produto = new Produto();
 
@@ -25,7 +27,7 @@ public class CadastroProdutoBean {
         produto.getQuantidade();
 
         try {
-            produtoDAOBD.adicionarProduto(produto);
+            produtoDAOMongo.adicionarProduto(produto);
         } catch (SQLException e) {
             e.printStackTrace();
 
