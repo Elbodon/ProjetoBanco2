@@ -6,18 +6,17 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:view>
-    <h:outputLabel value="Carrinho de Compras"/>
-    <h:outputLabel value="EM DESENVOLVIMENTO"/>
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Carrinho de Compras</title>
+        <link href="materialize/css/materialize.css" type="text/css" rel="stylesheet"/>
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    </h:head>
 
-    <!--h:form>
-        <h:commandButton value="Listar" action="#{produtoBean.list}" />
-
-        <h:dataTable value="#{produtoBean.produtos}" var="produto">
-            <h:column>
-                <f:facet name="header">ID</f:facet>
-                <h:outputText value="#{produto.id}" />
-            </h:column>
-
+    <h:form>
+        <h:dataTable value="#{carrinhoBean.carrinho.produtos}" var="produto">
             <h:column>
                 <f:facet name="header">Nome</f:facet>
                 <h:outputText value="#{produto.nome}" />
@@ -30,14 +29,15 @@
 
             <h:column>
                 <f:facet name="header">Quantidade</f:facet>
-                <h:outputText value="#{produto.quantidade}" />
+                <h:outputText value="#{carrinhoBean.carrinho.quantidade}" />
             </h:column>
+            <h:commandButton styleClass=" background: #e61919;" action="#{carrinhoBean.removeProduto(produto)}" value="X" />
         </h:dataTable>
-
-        <h:commandButton styleClass=" background: #9575cd;" action="#{cadastroProdutoBean.salvarProduto}" value="Concluir cadastro" />
+        <h:commandButton styleClass=" background: #ffbf00;" action="#{carrinhoBean.adicionaOutroProduto}" value="Adicionar produto" />
     </h:form>
 
-    <h:commandButton styleClass=" background: #9575cd;" action="#{cadastroProdutoBean.salvarProduto}" value="Concluir cadastro" /-->
+    <h:commandButton styleClass=" background: #19e619;" action="#{carrinhoBean.vender}" value="Finalizar venda" />
+    <h:commandButton styleClass=" background: #cccccc;" action="#{carrinhoBean.apagaCarrinho}" value="Apagar carrinho" />
 
 </f:view>
 <!--
